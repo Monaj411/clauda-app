@@ -1,5 +1,5 @@
 import React from "react";
-//import Button from "./button";
+import Button from "./button";
 //import About from "./about";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
@@ -23,6 +23,8 @@ const Home = () => {
             mobile money and bank transfers, while also enabling merchants to
             make international payout to other African countries.{" "}
           </p>
+          <Button />
+
         </div>
 
         <div class="p-2 text-white welcome">
