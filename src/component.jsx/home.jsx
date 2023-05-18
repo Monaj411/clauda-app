@@ -9,7 +9,6 @@ import Contact from "./contact";
 import Sign from "./signIn";
 import Social from "./social";
 import About from "./about";
-import NavBar from "./navBar";
 
 const Home = () => {
   return (
@@ -38,7 +37,7 @@ const Home = () => {
 <Sign />
 <Social />
 <About /> 
-<NavBar />
+
         </div>
 
         <div class="p-2 text-white welcome">
