@@ -38,6 +38,7 @@ const Home = () => {
 <Social />
 <About /> 
 <p>hi</p>
+<p>ji</p>
 
         </div>
 
