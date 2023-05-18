@@ -7,6 +7,7 @@ import Login from "./loginForm";
 import Product from "./product";
 import Contact from "./contact";
 import Sign from "./signIn";
+import Social from "./social";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
 <Product />
 <Contact />
 <Sign />
+<Social />
         </div>
 
         <div class="p-2 text-white welcome">
