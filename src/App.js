@@ -6,7 +6,7 @@ import Home from './component.jsx/home';
 import NavBar from './component.jsx/navBar';
 
 import Login from './component.jsx/loginForm';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Product from './component.jsx/product';
 import About from './component.jsx/about';
 import Sign from './component.jsx/signIn';
@@ -17,12 +17,16 @@ function App() {
     <React.Fragment>     
       <NavBar />
       <div className='content'>
-      <Route path="/product" component={Product} />
+
+        <Switch>
+        <Route path="/product" component={Product} />
       <Route path="/about" component={About} />
       <Route path="/login" component={Login} />
       <Route path="/sign" component={Sign} />
       <Route path="/contact" component={Contact}/>
       <Route path="/" component={Home} />
+        </Switch>
+      
 
 
       </div>
