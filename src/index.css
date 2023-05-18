@@ -51,10 +51,13 @@ nav {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .toggle-icon {
   font-size: 1.5rem;
   color: antiquewhite;
   cursor: pointer;
+  display: block;
+  margin-left: 250px;
 }
 
 .home {
@@ -148,4 +151,19 @@ nav {
   padding-top: 50px;
   font-style: italic;
   align-content: flex-start;
+}
+/* /* social  */
+
+@media (max-withd: 600px) {
+  .social-link {
+    color: yellow;
+    background-color: red;
+
+  }
+}
+
+.social-link{
+  display: inline;
+  position: relative;
+  margin-left: 0px;
 }

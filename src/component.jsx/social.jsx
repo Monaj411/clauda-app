@@ -7,7 +7,7 @@ const Social = () => {
           title="Follow us on Instagram"
           href="https://www.instagram.com/"
           rel="noopener noreferrer"
-          class="social-link p-5"
+          class="social-link p-2"
         >
           <svg
             width="30"
@@ -24,7 +24,7 @@ const Social = () => {
           title="Like us on Facebook"
           href="https://www.facebook.com/"
           rel="noopener noreferrer"
-          class="social-link p-5"
+          class="social-link p-2"
         >
           <svg
             width="30"
@@ -41,7 +41,7 @@ const Social = () => {
           title="Follow us on Twitter"
           href="https://twitter.com/"
           rel="noopener noreferrer"
-          class="social-link p-5 "
+          class="social-link p-2 "
         >
           <svg
             width="30"
@@ -58,9 +58,10 @@ const Social = () => {
           title="Subscribe on YouTube"
           href="https://www.gmail.com/"
           rel="noopener noreferrer"
-          class="social-link p-5"
+          class="social-link p-2"
         >
           <svg
+          className="social"
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
