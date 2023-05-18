@@ -8,6 +8,7 @@ import Product from "./product";
 import Contact from "./contact";
 import Sign from "./signIn";
 import Social from "./social";
+import About from "./about";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
 <Contact />
 <Sign />
 <Social />
+<About />
         </div>
 
         <div class="p-2 text-white welcome">
