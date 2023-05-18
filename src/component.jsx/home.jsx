@@ -3,6 +3,7 @@ import Button from "./button";
 //import About from "./about";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
+import Login from "./loginForm";
 
 const Home = () => {
   return (
@@ -24,7 +25,8 @@ const Home = () => {
             make international payout to other African countries.{" "}
           </p>
           <Button />
-
+          
+<Login />
         </div>
 
         <div class="p-2 text-white welcome">
