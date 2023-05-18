@@ -37,6 +37,7 @@ const Home = () => {
 <Sign />
 <Social />
 <About /> 
+<p>hi</p>
 
         </div>
 
