@@ -19,9 +19,8 @@ const NavBar = () => {
         <div className="hamburger">
           <FaBars className="toggle-icon " onClick={handleNavToggle} />
         </div>
-        {/* {showNav && ( */}
+        
         <ul className={showNav ? "nav-links show-nav" : "nav-links "}>
-          {/* d-none d-md-block */}
           <li>
             <Link
               onClick={handleNavToggle}

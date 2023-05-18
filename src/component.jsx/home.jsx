@@ -3,12 +3,7 @@ import Button from "./button";
 //import About from "./about";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-import Login from "./loginForm";
-import Product from "./product";
-import Contact from "./contact";
-import Sign from "./signIn";
-import Social from "./social";
-import About from "./about";
+
 
 const Home = () => {
   return (
@@ -31,12 +26,7 @@ const Home = () => {
           </p>
           <Button />
           
-<Login />
-<Product />
-<Contact />
-<Sign />
-<Social />
-<About /> 
+
 <p>hi</p>
 <p>ji</p>
 
