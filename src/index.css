@@ -1,5 +1,3 @@
-/* body {
-} */
 
 .heading {
   font-family: "Righteous", cursive;
@@ -28,12 +26,8 @@
   color: black;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
 
-*/ * {
+* {
   box-sizing: border-box;
 }
 li {
@@ -111,7 +105,6 @@ nav {
 
 /* CONTACT */
 .contact {
-  /* border: solid red; */
   width: 98%;
   max-width: 700px;
   margin: 0 auto;
