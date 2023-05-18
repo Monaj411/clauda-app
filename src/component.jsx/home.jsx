@@ -16,7 +16,11 @@ const Home = () => {
             </h1>
           </p>
 
-          <p class="text-center">
+         
+          <div class="container">
+  <div class="row">
+    <div class="col-md">
+    <p class="text-center">
             Clauda is a robust payment gateway designed to facilitate seamless
             and secure transactions for merchants operating across 16 Arican
             countries. Cluada will support various payment methods, including
@@ -24,6 +28,13 @@ const Home = () => {
             make international payout to other African countries.{" "}
           </p>
           <Button />
+    </div>
+    <div class="col-md">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quaerat. Ullam, hic sapiente. Praesentium, odit quisquam illo architecto illum aperiam reiciendis magnam nemo sapiente asperiores minus, natus culpa, temporibus facere.</p>
+    </div>
+  </div>
+</div>
+         
         </div>
 
         <div class="p-2 text-white welcome">
