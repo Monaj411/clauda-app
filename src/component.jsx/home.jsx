@@ -4,6 +4,9 @@ import Button from "./button";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 import Login from "./loginForm";
+import Product from "./product";
+import Contact from "./contact";
+import Sign from "./signIn";
 
 const Home = () => {
   return (
@@ -27,6 +30,9 @@ const Home = () => {
           <Button />
           
 <Login />
+<Product />
+<Contact />
+<Sign />
         </div>
 
         <div class="p-2 text-white welcome">
