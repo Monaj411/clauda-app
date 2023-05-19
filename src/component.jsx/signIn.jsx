@@ -6,7 +6,7 @@ const handleSubmit = (e) => {
 const Sign = () => {
   return (
     <React.Fragment>
-      <div class="container fontBody welcome text-white">
+      <div class="contact fontBody welcome text-white">
         <header class="header">
           <h1 id="title" className="text-center heading">
             Clauda Sign Up{" "}

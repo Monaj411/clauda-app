@@ -8,7 +8,7 @@ const Login = () => {
 
   return (
     <React.Fragment>
-      <div class="container fontBody welcome text-white">
+      <div class="contact fontBody welcome text-white">
         <h1 id="title" className="p-3 text-center heading">
           Welcome to Clauda{" "}
         </h1>
